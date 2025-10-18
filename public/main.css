@@ -1,0 +1,50 @@
+html, body {
+  height: 100%;        /* full height */
+  margin: 0;           /* remove default margin */
+}
+nav{
+    
+    margin-bottom: 10px;
+}
+
+textarea {
+  height: 350px;
+  line-height: 150%;
+  resize: vertical;
+  width: 100%;
+  
+  padding: 8px;
+}
+[type="submit"] {
+  width: 100%;
+  background: #3586ff;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: 4px;
+  font-weight: 700;
+}
+[type="submit"]:hover {
+  background: #3586ff80;
+}
+h1{
+    text-align: center;
+    margin-top: 30px;
+    font-family: Bitcount Prop Single Ink;
+}
+form{
+    margin-top: 50px;
+}
+
+
+#toggleBtn{
+    border-radius: 15px;
+}
+
+
+

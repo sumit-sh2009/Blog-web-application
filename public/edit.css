@@ -1,0 +1,25 @@
+
+textarea {
+  height: 350px;
+  line-height: 150%;
+  resize: vertical;
+  width: 100%;
+  font-weight: bold;
+}
+[type="submit"] {
+  width: 100%;
+  background: #3586ff;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 700;
+}
+[type="submit"]:hover {
+  background: #3586ff;
+}
